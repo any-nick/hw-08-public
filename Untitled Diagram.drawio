@@ -59,7 +59,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="390" y="-430" />
-              <mxPoint x="390" y="-681" />
+              <mxPoint x="390" y="-711" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -109,23 +109,17 @@
         <mxCell id="RT5_vWD0FZIrRIzfqSI8-31" value="Records" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-30">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RT5_vWD0FZIrRIzfqSI8-60" value="Notes" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-30">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="RT5_vWD0FZIrRIzfqSI8-34" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-30">
-          <mxGeometry y="78" width="160" height="8" as="geometry" />
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="RT5_vWD0FZIrRIzfqSI8-35" value="add_record" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-30">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RT5_vWD0FZIrRIzfqSI8-36" value="find_record" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-30">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RT5_vWD0FZIrRIzfqSI8-36" value="find" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-30">
+        <mxCell id="RT5_vWD0FZIrRIzfqSI8-37" value="delete_record" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-30">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RT5_vWD0FZIrRIzfqSI8-37" value="delete" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-30">
-          <mxGeometry y="138" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="RT5_vWD0FZIrRIzfqSI8-38" value="remove_phone" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-30">
-          <mxGeometry y="164" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RT5_vWD0FZIrRIzfqSI8-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RT5_vWD0FZIrRIzfqSI8-45">
           <mxGeometry relative="1" as="geometry">
@@ -133,6 +127,14 @@
             <Array as="points">
               <mxPoint x="651" y="-420" />
               <mxPoint x="651" y="-359" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RT5_vWD0FZIrRIzfqSI8-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RT5_vWD0FZIrRIzfqSI8-45" target="RT5_vWD0FZIrRIzfqSI8-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="-420" />
+              <mxPoint x="900" y="-711" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -204,10 +206,10 @@
         <mxCell id="RT5_vWD0FZIrRIzfqSI8-69" value="add_note" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-64">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RT5_vWD0FZIrRIzfqSI8-70" value="delete_note" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-64">
+        <mxCell id="RT5_vWD0FZIrRIzfqSI8-71" value="find_note&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-64">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RT5_vWD0FZIrRIzfqSI8-71" value="edit_note" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-64">
+        <mxCell id="RT5_vWD0FZIrRIzfqSI8-70" value="delete_note" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="RT5_vWD0FZIrRIzfqSI8-64">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
